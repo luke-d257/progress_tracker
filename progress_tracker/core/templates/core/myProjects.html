@@ -2,5 +2,45 @@
 
 {%block title%}My Projects{%endblock%}
 {%block content%}
-    <h1>Page consisting of the list of all projects</h1>
+<table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Name</th>
+        <th scope="col">Description</th>
+        <th scope="col">Start Date</th>
+        <th scope="col">Ideal percentage of completion</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Treehouse</td>
+        <td>Building a Treehouse</td>
+        <td>3/6/23</td>
+        <td>0%</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Website</td>
+        <td>Building a Portfolio Website</td>
+        <td>3/1/23</td>
+        <td>26%</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Class Project</td>
+        <td>Building a RC car</td>
+        <td>6/2/23</td>
+        <td>21%</td>
+      </tr>
+      <tr>
+        <th scope="row">4</th>
+        <td>Work project</td>
+        <td>Expanding the customer base</td>
+        <td>6/2/23</td>
+        <td>21%</td>
+      </tr>
+    </tbody>
+  </table>
 {%endblock%}
