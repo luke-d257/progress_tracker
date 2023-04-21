@@ -26,18 +26,20 @@
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="{% url 'dashboard'%}">Dashboard</a>
+                  <a class="nav-link active" aria-current="page" href="{% url 'core:dashboard'%}">Dashboard</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{% url 'myProjects'%}">My Projects</a>
+                    <a class="nav-link" href="{% url 'core:myProjects'%}">My Projects</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="{% url 'addProject'%}">Add A New Project</a>
+                  <a class="nav-link" href="{% url 'core:addProject'%}">Add A New Project</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{% url 'contact'%}">Contact</a>
+                    <a class="nav-link" href="{% url 'core:contact'%}">Contact</a>
                 </li>
-  
+                <li class="nav-item">
+                  <a class="nav-link" href="{% url 'core:home'%}">Log Out</a>
+              </li>
               </ul>
             </div>
           </div>
