@@ -45,6 +45,7 @@ class AddProject(forms.ModelForm):
             "class":"mb-3 form-control form-label border border-black"}
             ),    
             "endDate":forms.TextInput(attrs = {
+            "placeholder":"Year-month-day",
             "class":"mb-3 form-control form-label border border-black"}
             ),
         }
